@@ -7,7 +7,7 @@
             "all": true
         }
     },
-    {  
+    {
         "type": "tmp",
         "name": "sum",
         "outputPath": "counts.scoreUnampedSpeaker",
@@ -20,7 +20,7 @@
             ]
         }
     },
-    {  
+    {
         "type": "tmp",
         "name": "sum",
         "outputPath": "counts.scoreAmpedSpeaker",
@@ -33,7 +33,7 @@
             ]
         }
     },
-    {  
+    {
         "type": "tmp",
         "name": "sum",
         "outputPath": "counts.scoreCombinedSubwoofer",
@@ -44,7 +44,7 @@
             ]
         }
     },
-    {  
+    {
         "type": "tmp",
         "name": "sum",
         "outputPath": "counts.scoreCombinedPodium",
@@ -55,7 +55,7 @@
             ]
         }
     },
-    {  
+    {
         "type": "tmp",
         "name": "sum",
         "outputPath": "counts.scoreCombinedWing",
@@ -66,7 +66,7 @@
             ]
         }
     },
-    {  
+    {
 
         "type": "tmp",
         "name": "sum",
@@ -78,7 +78,7 @@
             ]
         }
     },
-    {  
+    {
         "type": "tmp",
         "name": "sum",
         "outputPath": "counts.scoreCombinedSpeaker",
@@ -89,55 +89,6 @@
             ]
         }
     },
-    {  
-        "type": "tmp",
-        "name": "actionTime",
-        "outputPath": "autoNoteTimes.ampMost",
-        "options": {
-            "actionId" : "autoNoteAmpMost"
-        }
-    },
-    {  
-        "type": "tmp",
-        "name": "actionTime",
-        "outputPath": "autoNoteTimes.ampMid",
-        "options": {
-            "actionId" : "autoNoteAmpMid"
-        }
-    },
-    {  
-        "type": "tmp",
-        "name": "actionTime",
-        "outputPath": "autoNoteTimes.middle",
-        "options": {
-            "actionId" : "autoNoteMiddle"
-        }
-    },
-    {  
-        "type": "tmp",
-        "name": "actionTime",
-        "outputPath": "autoNoteTimes.sourceMid",
-        "options": {
-            "actionId" : "autoNoteSourceMid"
-        }
-    },
-    {  
-        "type": "tmp",
-        "name": "actionTime",
-        "outputPath": "autoNoteTimes.sourceMost",
-        "options": {
-            "actionId" : "autoNoteSourceMost"
-        }
-    },
-    {  
-        "type": "tmp",
-        "name": "actionTime",
-        "outputPath": "autoNoteTimes.wing",
-        "options": {
-            "actionId" : "autoNoteWing"
-        }
-    },
-
     {
         "type": "tmp",
         "name": "cycle",
@@ -228,7 +179,6 @@
             "actionArrayPath": "teleopFilter"
         }
     },
-  
     {
         "type": "tmp",
         "name": "weightedSum",
@@ -430,7 +380,7 @@
             "addends": [
                 "scores.stageExclusive",
                 "scores.stageInclusive"
-           ]
+            ]
         }
     },
     {
@@ -462,7 +412,7 @@
         }
     },
 
-    {  
+    {
         "type": "team",
         "name": "sum",
         "outputPath": "counts.scoreUnampedSpeaker",
@@ -475,7 +425,7 @@
             ]
         }
     },
-    {  
+    {
         "type": "team",
         "name": "sum",
         "outputPath": "counts.scoreAmpedSpeaker",
@@ -488,7 +438,7 @@
             ]
         }
     },
-    {  
+    {
         "type": "team",
         "name": "sum",
         "outputPath": "counts.scoreCombinedSubwoofer",
@@ -499,7 +449,7 @@
             ]
         }
     },
-    {  
+    {
         "type": "team",
         "name": "sum",
         "outputPath": "counts.scoreCombinedPodium",
@@ -510,7 +460,7 @@
             ]
         }
     },
-    {  
+    {
         "type": "team",
         "name": "sum",
         "outputPath": "counts.scoreCombinedWing",
@@ -521,7 +471,7 @@
             ]
         }
     },
-    {  
+    {
 
         "type": "team",
         "name": "sum",
@@ -533,7 +483,7 @@
             ]
         }
     },
-    {  
+    {
         "type": "team",
         "name": "sum",
         "outputPath": "counts.scoreCombinedSpeaker",
